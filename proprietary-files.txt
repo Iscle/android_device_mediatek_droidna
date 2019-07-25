@@ -11,7 +11,6 @@ bin/lsm303md
 bin/6620_launcher
 bin/gsm0710muxd
 bin/drvbd
-bin/msensord
 bin/wmt_loader
 lib/hw/gps.default.so
 lib/libimageio_plat_drv.so
@@ -22,7 +21,6 @@ lib/libcvsd_mtk.so
 lib/libmtkcamera_client.so
 lib/libmtk_drvb.so
 lib/libaudiocustparam.so
-lib/libcurl.so
 lib/libJpgEncPipe.so
 lib/libfeatureio.so
 lib/libcam.utils.so
