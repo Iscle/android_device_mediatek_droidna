@@ -84,6 +84,17 @@ key 57    SPACE
 key 150   EXPLORER
 key 155   ENVELOPE
 
+Key 398   PROG_RED               
+Key 399   PROG_GREEN              
+Key 400   PROG_YELLOW             
+Key 401   PROG_BLUE        
+
+Key 59   F1            WAKE   
+Key 60   F2            WAKE 
+Key 61   F3            
+Key 62   F4
+Key 63   F5            
+Key 64   F6 
 key 12    MINUS
 key 13    EQUALS
 key 215   AT
@@ -94,3 +105,25 @@ key 163   MEDIA_NEXT          WAKE
 key 165   MEDIA_PREVIOUS      WAKE
 key 168   MEDIA_REWIND        WAKE
 key 159   MEDIA_FAST_FORWARD  WAKE
+
+key 250   HALL_CLOSE        
+key 251   HALL_FARAWAY      
+
+key 252   GESTURE_UP         WAKE
+key 253   GESTURE_DOWN       WAKE
+
+key 452   TPGESTURE_UP	     WAKE
+key 453   TPGESTURE_DOWN     WAKE
+key 454   TPGESTURE_LEFT     WAKE
+key 455   TPGESTURE_RIGHT    WAKE
+key 456   TPGESTURE_DOUBLE   WAKE
+key 457   TPGESTURE_C	     WAKE
+key 458   TPGESTURE_E	     WAKE
+key 459   TPGESTURE_M	     WAKE
+key 460   TPGESTURE_O	     WAKE
+key 461   TPGESTURE_S	     WAKE
+key 462   TPGESTURE_V	     WAKE
+key 485   TPGESTURE_W	     WAKE
+key 486   TPGESTURE_Z	     WAKE
+key 487   TPGESTURE_ARROWUP	     WAKE
+key 488   TPGESTURE_ARROWRIGHT	     WAKE

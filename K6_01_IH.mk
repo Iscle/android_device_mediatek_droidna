@@ -71,7 +71,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/root/ueventd.sprout.rc:root/ueventd.sprout.rc \
     $(LOCAL_PATH)/rootdir/root/init.sprout.usb.rc:root/init.sprout.usb.rc
 
-DEVICE_PACKAGE_OVERLAYS := device/google/sprout/overlay
+DEVICE_PACKAGE_OVERLAYS := device/mediatek/K6_01_IH/overlay
 	
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/root/twrp.fstab:recovery/root/etc/twrp.fstab
@@ -103,7 +103,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_AAPT_CONFIG := normal hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
-PRODUCT_PACKAGES += Torch
-
 # call the proprietary setup
-$(call inherit-product, vendor/google/sprout/sprout-vendor.mk)
+$(call inherit-product, vendor/mediatek/K6_01_IH/K6_01_IH-vendor.mk)
