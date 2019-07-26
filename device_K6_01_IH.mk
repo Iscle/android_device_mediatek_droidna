@@ -3,9 +3,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
-$(call inherit-product-if-exists, vendor/micromax/a106/a106-vendor.mk)
+$(call inherit-product-if-exists, vendor/mediatek/K6_01_IH/K6_01_IH-vendor.mk)
 
-LOCAL_PATH := device/micromax/a106
+LOCAL_PATH := device/mediatek/K6_01_IH
 
 PRODUCT_CHARACTERISTICS := default
 
@@ -163,12 +163,12 @@ PRODUCT_PROPERTY_OVERRIDES := \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.media.use-awesome=true
 
-PRODUCT_NAME := full_a106
-PRODUCT_DEVICE := a106
+PRODUCT_NAME := full_K6_01_IH
+PRODUCT_DEVICE := K6_01_IH
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 800
-TARGET_SCREEN_WIDTH := 480
+TARGET_SCREEN_HEIGHT := 1024
+TARGET_SCREEN_WIDTH := 600
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal

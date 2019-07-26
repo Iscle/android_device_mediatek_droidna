@@ -1,9 +1,10 @@
 #
-# system.prop for Micromax Unite 2 By Manjot Sidhu
+# system.prop for MediaTek K6_01_IH
 #
 
 rild.libpath=/system/lib/mtk-ril.so
 rild.libargs=-d /dev/ttyC0
+
 
 # MTK, Infinity, 20090720 {
 wifi.interface=wlan0
@@ -20,20 +21,37 @@ ro.mediatek.wlan.p2p=1
 mediatek.wlan.ctia=0
 # MTK, mtk03034 20101213}
 
+
 #
 wifi.tethering.interface=ap0
 #
-ro.sf.lcd_density=210.
-ro.sf.hwrotation=180
+
 ro.opengles.version=131072
 
-ro.nfc.port=I2C
-mtknfc.status.type=unknow
+wifi.direct.interface=p2p0
+dalvik.vm.heapgrowthlimit=128m
+dalvik.vm.heapsize=256m
 
-persist.mtk.aee.aed=on
-fmradio.driver.enable=1
+# USB MTP WHQL
+ro.sys.usb.mtp.whql.enable=0
 
-mux.debuglog.enable=1
+# Power off opt in IPO
+sys.ipo.pwrdncap=2
+
+# Switching Menu of Mass storage and MTP
+ro.sys.usb.storage.type=mtp,mass_storage
+
+# USB BICR function
+ro.sys.usb.bicr=yes
+
+# USB Charge only function
+ro.sys.usb.charging.only=yes
+
+# audio
+ro.camera.sound.forced=0
+ro.audio.silent=0
+
+ro.zygote.preload.enable=0
 
 ro.telephony.sim.count=2
 persist.radio.default.sim=0
@@ -60,7 +78,3 @@ ro.zygote.preload.enable=0
 
 # Disable dirty region for Mali
 debug.hwui.render_dirty_regions=false
-
-persist.sys.timezone=Asia/Kolkata
-persist.sys.strictmode.visual=0
-persist.sys.strictmode.disable=1

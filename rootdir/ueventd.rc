@@ -149,7 +149,7 @@
 /dev/ttyRB*     0660    radio   radio
 
 # Mali node
-/dev/mali0                0666    system graphics
+/dev/mali                0666    system graphics
 
 #MTK In-House TEE
 /dev/trustzone            0660   root       drmrpc
@@ -159,3 +159,5 @@
 /dev/touch              0660   root       system
 /dev/hotknot             0660    root system
 
+#uvc
+/dev/video0        0666   system     system

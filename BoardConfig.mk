@@ -1,7 +1,7 @@
 # inherit from the proprietary version
--include vendor/micromax/a106/BoardConfigVendor.mk
+-include vendor/mediatek/K6_01_IH/BoardConfigVendor.mk
 
-LOCAL_PATH := device/micromax/a106
+LOCAL_PATH := device/mediatek/K6_01_IH
 
 # Off NINJA
 #USE_NINJA := false
@@ -18,7 +18,7 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_ARCH_VARIANT_CPU := cortex-a7
 TARGET_CPU_VARIANT:= cortex-a7
 TARGET_CPU_MEMCPY_OPT_DISABLE := true
-BOARD_HAS_FLIPPED_SCREEN := true
+BOARD_HAS_FLIPPED_SCREEN := false
 
 # Enable dex-preoptimization
 WITH_DEXPREOPT := false
@@ -28,13 +28,13 @@ DONT_DEXPREOPT_PREBUILTS := true
 TARGET_LDPRELOAD := libxlog.so:libmtk_symbols.so # for symbols in mtkaudio.cpp + mtksymbols
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := a106
+TARGET_BOOTLOADER_BOARD_NAME := K6_01_IH
 
 TARGET_USERIMAGES_USE_EXT4:=true
 TARGET_USERIMAGES_SPARSE_EXT_DISABLED := false
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := a106 
+TARGET_OTA_ASSERT_DEVICE := K6_01_IH 
 
 # MTK HARDWARE
 OLD_KERNEL := true
@@ -138,10 +138,10 @@ BOARD_HOSTAPD_DRIVER := NL80211
 BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_mt66xx
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
 BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_mt66xx
-WIFI_DRIVER_FW_PATH_PARAM:="/dev/wmtWifi"
-WIFI_DRIVER_FW_PATH_STA:=STA
-WIFI_DRIVER_FW_PATH_AP:=AP
-WIFI_DRIVER_FW_PATH_P2P:=P2P
+WIFI_DRIVER_FW_PATH_PARAM := "/dev/wmtWifi"
+WIFI_DRIVER_FW_PATH_STA := STA
+WIFI_DRIVER_FW_PATH_AP := AP
+WIFI_DRIVER_FW_PATH_P2P := P2P
 
 # Display
 TARGET_BOOTANIMATION_MULTITHREAD_DECODE := true

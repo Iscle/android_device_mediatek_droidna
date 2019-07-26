@@ -1,6 +1,6 @@
-# Micromax Unite 2 A106
+# MediaTek Unite 2 A106
 
-Micromax Unite 2 device is a low-range smartphone from micromax.
+MediaTek Unite 2 device is a low-range smartphone from mediatek.
 
 Basic   | Spec Sheet
 -------:|:-------------------------
@@ -35,10 +35,10 @@ This branch is for building LineageOS 14.1 Based ROMs.
 
   * repo init -u git://github.com/los14mt6582/android.git -b cm-14.1
   * repo sync
-  * git clone https://github.com/los14mt6582/android_device_micromax_a106.git device/micromax/a106
-  * git clone https://github.com/los14mt6582/android_vendor_micromax_a106.git vendor/micromax/a106
+  * git clone https://github.com/los14mt6582/android_device_mediatek_K6_01_IH.git device/mediatek/K6_01_IH
+  * git clone https://github.com/los14mt6582/android_vendor_mediatek_K6_01_IH.git vendor/mediatek/K6_01_IH
   * source build/envsetup.sh
-  * brunch a106
+  * brunch K6_01_IH
   * Done :)
   
 # Credits/Thanks to:-

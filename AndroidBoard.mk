@@ -10,4 +10,4 @@ $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr:
 endif
 
 # include the non-open-source counterpart to this file
--include vendor/micromax/a106/AndroidBoardVendor.mk
+-include vendor/mediatek/K6_01_IH/AndroidBoardVendor.mk
